@@ -1,16 +1,10 @@
-.container{
+.container {
   width: 100%;
-  margin: 0 auto;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
-.title{
+.subtitle {
   display: flex;
-  gap: 2em;
+  justify-content: space-between;
 }
 
 table {
@@ -19,10 +13,5 @@ table {
 
 .mat-mdc-form-field {
   font-size: 14px;
-  width: 60%;
-}
-
-td,
-th {
-  width: 25%;
+  width: 100%;
 }

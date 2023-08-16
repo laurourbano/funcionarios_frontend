@@ -1,7 +1,18 @@
-<div>
-  <nav>
-    <a routerLink="/funcionarios" routerLinkActive="active">Funcionários</a>
-    <a routerLink="/departamentos" routerLinkActive="active">Departamentos</a>
-  </nav>
-</div>
-<router-outlet></router-outlet>
+  <div class="navbar">
+    <h1 class="logo">{{ title }}</h1>
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/funcionarios" routerLinkActive="active">Funcionários</a>
+        </li>
+        <li>
+          <a routerLink="/departamentos" routerLinkActive="active">Departamentos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
